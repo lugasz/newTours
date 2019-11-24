@@ -33,6 +33,10 @@ public class ReservationTest {
 
 		driver.findElement(By.xpath(oneWayXpath)).click();
 		
+		WebElement passCount = driver.findElement(By.name("passCount"));
+		Select passCountSelect = new Select(passCount);
+		passCountSelect.selectByValue("2");
+		
 		WebElement fromPort = driver.findElement(By.name("fromPort"));
 		Select fromPortSelect = new Select(fromPort);
 		fromPortSelect.selectByVisibleText("London");
