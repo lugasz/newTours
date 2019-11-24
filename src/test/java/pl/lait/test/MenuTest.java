@@ -38,7 +38,7 @@ public class MenuTest {
 	
 	@After
 	public void tearDown() {
-		driver.close();
+		Init.end();
 	}
 
 }

@@ -19,7 +19,7 @@ public class Init {
 		if (driver == null) {   // jesli driver JEST null 
 			System.out.println(" -- wewnątrz getDriver null");
 			System.setProperty("webdriver.chrome.driver", "C:/Users/lukif/OneDrive/Dokumenty/SeleniumLibs/chromedriver.exe" );
-			// driver = new ChromeDriver();
+			 //driver = new ChromeDriver();
 			
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			
