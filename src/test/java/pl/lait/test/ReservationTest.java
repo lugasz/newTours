@@ -84,4 +84,8 @@ public class ReservationTest {
 	// driver.close();
 	// }
 
+	@After
+	public void tearDown() {
+		Init.end();
+	}
 }

@@ -51,4 +51,9 @@ public class Init {
 					}
 	}
 	
+			public static void end() {
+				driver.quit();
+				driver = null;
+			}
+	
 }
